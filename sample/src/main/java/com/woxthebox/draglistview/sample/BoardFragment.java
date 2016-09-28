@@ -64,7 +64,7 @@ public class BoardFragment extends Fragment {
         mBoardView.setSnapToColumnsWhenScrolling(true);
         mBoardView.setSnapToColumnWhenDragging(true);
         mBoardView.setSnapDragItemToTouch(true);
-        mBoardView.setCustomDragItem(new MyDragItem(getActivity(), R.layout.column_item));
+       // mBoardView.setCustomDragItem(new MyDragItem(getActivity(), R.layout.custom_drag_item));
         mBoardView.setBoardListener(new BoardView.BoardListener() {
             @Override
             public void onItemDragStarted(int column, int row) {
